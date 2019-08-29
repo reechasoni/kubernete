@@ -7,3 +7,15 @@ $ kubectl cluster-info
 $ kubectl create –f <File Name>
 ex - kubectl create -f pods.yml
 ```
+### To collect information about how many pods are there
+```
+$ kubectl get pods
+```
+### To gather information ablut particular pod
+```
+$ kubectl describe pod/pod-name
+```
+### To login inside the particular pod
+```
+$ kubectl exec -it pod/pod-name bash 
+```
