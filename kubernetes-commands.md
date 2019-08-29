@@ -23,3 +23,8 @@ $ kubectl exec -it pod/pod-name bash
 ```
 $ kubectl logs pod-name
 ```
+### To expose the pod to Internet
+```
+$ kubectl expose pods/pod-name --type="NodePort" --port 8080
+```
+### 
