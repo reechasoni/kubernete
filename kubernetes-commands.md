@@ -31,4 +31,8 @@ $ kubectl expose pods/pod-name --type="NodePort" --port 8080
 ```
 $ kubectl get service
 ```
+### To know about nodes
+```
+$ kubectl get nodes
+```
 ### 
