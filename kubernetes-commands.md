@@ -19,3 +19,7 @@ $ kubectl describe pod/pod-name
 ```
 $ kubectl exec -it pod/pod-name bash 
 ```
+### To see the log of particular pod
+```
+$ kubectl logs pod-name
+```
